@@ -55,7 +55,7 @@ jobs:
            
     - name: Install Botium
       run: |
-          pushd '${{ env.TEST_PATH }}'
+          pushd 'test'
           npm install
           popd
 
