@@ -33,6 +33,6 @@ jobs:
           
     - name: Run Express App
       run: |
-          npm start
+          cd myExpressApp && npm start
           
           
