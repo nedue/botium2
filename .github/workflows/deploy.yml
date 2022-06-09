@@ -62,6 +62,6 @@ jobs:
     - name: Run Botium Tests
       run: |
           pushd 'test'
-          npm mocha
+          npm run mocha
           popd
 
