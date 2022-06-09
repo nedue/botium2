@@ -46,4 +46,21 @@ jobs:
     - name: Azure Cloud Set AzureUSGovernment
       run: az login --identity
            
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: 'npm'
+           
+    - name: Install Botium
+      run: |
+          pushd '${{ env.TEST_PATH }}'
+          npm install
+          popd
+
+    - name: Run Botium Tests
+      run: |
+          pushd 'test'
+          npm mocha
+          popd
 
