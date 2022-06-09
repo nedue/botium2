@@ -40,7 +40,10 @@ jobs:
     - name: install azure cli
       run: curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
-    - name: Azure CLI script
+    - name: Azure Cloud Set AzureUSGovernment
       run: az cloud set --name AzureUSGovernment
+      
+    - name: Azure Cloud Set AzureUSGovernment
+      run: az login --identity
            
 
