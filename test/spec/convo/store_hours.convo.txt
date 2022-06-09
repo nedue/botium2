@@ -1,0 +1,15 @@
+store hours
+
+#me: store hours
+#bot: I'm happy to help with store hours.
+#bot: The Redmond hours are:
+
+*   Mon-Fri: 9am to 6pm
+*   Sat: 10am to 4pm
+*   Sun: Closed
+
+The Seattle hours are:
+
+*   Mon-Fri: 9am to 6pm
+*   Sat-Sun: 10am to 4pm
+

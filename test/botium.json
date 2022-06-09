@@ -1,0 +1,11 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "test-botium",
+      "CONTAINERMODE": "directline3",
+      "DIRECTLINE3_SECRET" : "hfEPfz2o0Hg.w5FmZAeog0Xy5mQ2hMyfL-4E9KnnJccs9cC-L5EwMnA"
+    },
+    "Sources": {},
+    "Envs": {}
+  }
+}

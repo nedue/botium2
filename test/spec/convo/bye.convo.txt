@@ -1,0 +1,4 @@
+bye
+
+#me: bye
+#bot: I'm happy to help with store hours.
