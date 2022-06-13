@@ -22,7 +22,8 @@ jobs:
       run: curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
     - name: Azure Cloud Set AzureUSGovernment
-      run: az cloud set --name AzureUSGovernment
+      run: az cloud set --name AzureCloud
+      #run: az cloud set --name AzureUSGovernment
       
     - name: Azure Login with Managed Identity
       run: az login --identity
