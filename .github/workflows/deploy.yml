@@ -46,3 +46,5 @@ jobs:
           cd test
           npm run mocha
 
+    - name: Run node.js
+      run: node app.js
