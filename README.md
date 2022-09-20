@@ -1,2 +1,2 @@
 # actions-aks
-Set up self hosted runner on Azure kubernetes service 12
+Set up self hosted runner on Azure kubernetes service 13
