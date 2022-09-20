@@ -25,8 +25,8 @@ jobs:
       #run: az cloud set --name AzureCloud
       run: az cloud set --name AzureUSGovernment
       
-    - name: Azure Login with Managed Identity
-      run: az login --identity
+   # - name: Azure Login with Managed Identity
+    #  run: az login --identity
            
     - name: Use Node.js 16.x
       uses: actions/setup-node@v3
